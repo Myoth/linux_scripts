@@ -14,6 +14,8 @@ xbps-install -Su
 #installing KDE-plasma and its base apps
 xbps-install -Su kde5 kde5-baseapps
 
+#installing various software
+xbps-install telegram-desktop mpd cantata libreoffice-kde flameshot anki
 
-#removing XFCE4
+#removing XFCE4 and its software
 xbps-remove -oR xfce4
