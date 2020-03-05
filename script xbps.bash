@@ -18,7 +18,7 @@ xbps-install -Su kde5 && kde5-baseapps
 xbps-remove -oR xfce4
 
 #installing various software
-xbps-install telegram-desktop && mpd && cantata && libreoffice-kde && flameshot && anki && acpi && neofetch && git
+xbps-install telegram-desktop && mpd && cantata && libreoffice-kde && flameshot && anki && acpi && neofetch && git && cmake
 
 #installing spotify through the non-free repo
 xbps-install -S void-repo-nonfree
